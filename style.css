@@ -50,7 +50,7 @@ body {
 h1 {
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    animation: text 0.1s infinite;
+    animation: text 0.05s infinite;
 }
 
 p {
