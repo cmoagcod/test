@@ -46,6 +46,3 @@ var info={
 
 document.getElementById('info').innerHTML = "<p>" + info.browserPlatform() + info.sizeScreenH() + info.sizeScreenW() + info.browserLanguage() + info.timezone + info.timeOpened + info.scrColorDepth() + info.scrPixelDepth() + info.sizeDocH() + "</p>"
 
-for (let index = 0; index < 100000000; index++) {
-    document.getElementById('test').innerHTML += " "
-}
